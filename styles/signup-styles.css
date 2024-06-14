@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.right{
+    text-align: right;
+}
+div{
+    font-family: Verdana, Arial, Tahoma, Serif;
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 50px;
+    border-left: 20px;
+    border-right: 20px;
+    background-color: white;
+   
+}
+.center{
+    text-align: center;
+    margin:20px;
+}
+.jt{
+    text-align: justify;
+}
+input[class=text1]{
+    width: 40%;
+    padding: 15px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[class=text2]{
+    width: 40%;
+    padding: 15px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[class=text3]{
+    width: 83%;
+    padding: 15px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[class=text4]{
+    width: 20%;
+    padding: 15px 20px;
+    margin: 8px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input:focus[class=text1]{
+    color: white;
+    background-color: #98999C;
+    width: 220px;
+}
+input:focus[class=text2]{
+    color: white;
+    background-color: #98999C;
+    width: 220px;
+}
+input:focus[class=text3]{
+    color: white;
+    background-color: #98999C;
+    width: 460px;
+}
+input:focus[class=text4]{
+    color: white;
+    background-color: #98999C;
+    width: 200px;
+}
+input[type='submit']{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+input[type='submit']:focus{
+    background-color: black;
+    color:white;
+}
+body{
+    background-color: white;
+}
+
+input[type="number"]{
+	width: 30px;
+	margin: 0;
+	padding: 8px 0 4px;
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	border-radius: 10px;
+}
+body{
+    background-color: #98999C;
+}
+
+
+

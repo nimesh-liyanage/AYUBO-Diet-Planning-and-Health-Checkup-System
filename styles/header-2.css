@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 25%;
+    padding-left: 15px;
+    margin-right: 60%; /* Adjust the margin as needed */
+    margin-bottom: 5px ;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 62px; /* Adjust profile picture size as needed */
+    height: 62px;
+    margin-right: 15px; /* Add some spacing between the picture and the name */
+  }
+  
+  .username {
+    color: black;
+    margin: 0; /* Remove any default margin */
+    font-size: 18px; /* Adjust username font size as needed */
+    font-weight: bold; /* Adjust username font weight as needed */
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.packageName{
+    border-style: groove;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height:30px;
+    margin:auto;
+    width:90%;
+    margin-top:30px;
+    border-radius:10px;
+    border-width:2px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+    border-color:#008CBA;
+    color:#333333;
+}
+
+.image-container{
+    margin-top:30px;
+}
+
+.image{
+    height:500px;
+    width:500px;
+    margin-left:120px;
+}
+
+.text-container{
+    float:right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right:90px;
+    color: #333333;
+}
+
+.btn1{
+    margin-top:30px;
+    border:none;
+    background-color: #0870cf;
+    color: aliceblue;
+    border-radius:25px;
+    height:35px;
+    margin-left:10px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+}
+
+.btn1:hover{
+    background-color:navy;
+}
+
+.Price{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333333;
+}
+
+.topic1{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top:30px;
+margin-left:120px;
+color: #333333;
+border-left:6px solid rgb(63, 63, 240);
+
+}
+
+.topic2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color:#333333;
+font-size:16px;
+margin-left:120px;
+}
+
+.Description{
+    margin-left:120px;
+}
+
+.list{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333333;
+    list-style:disc;
+}
+
+.list li::marker{
+    color:#0870cf;
+}
+
+.Description1{
+    float:left;
+    width:40%;
+    margin-left:120px;
+}

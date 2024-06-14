@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.content{
+  margin-top:5vh;
+  margin-left:5%;
+  background-color:#ffffff67;
+  width:90%;
+  height:63%;
+  border: 2px solid #0864A5;
+  border-radius: 7px;
+}
+.grd1{
+    background:none;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+  }
+
+.grd2{
+    background:none;
+    border-left:2px solid#0864A5;
+    border-right:2px solid#0864A5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gRd2{
+    height: 50vh;
+    width: 90%;
+    background-color:#ffffff;
+    box-shadow: 0 0 10px #010b2db1;
+  }
+
+  .grd3{
+    background:none;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .gRd31{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid#0864A5;
+  }
+
+  .gRd31 button{
+    margin: 0;
+
+  }
+
+  .gRd32{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid#0864A5;
+  }
+
+  .grd32 button{
+    margin: 0;
+  }
+
+
+  .gRd33{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grd32 button{
+    margin: 0;
+  }
+
+  .btn{
+    height:30px;
+    margin:0px;
+    width: 90px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 450;
+    font-size: 20px;
+  }
+
+  .content{
+    display: grid;
+  }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}

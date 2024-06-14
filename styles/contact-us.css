@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.container{
+    height: 80vh;
+}
+
+.container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #010b2d;
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #b2beb5;
+    height: 10vh;
+    width: 80%;
+    margin-left: 10%;
+    padding-left:10vh;
+    padding-right:10vh;
+    align-items:center;
+}
+
+
+.form{
+    height: 40vh;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#b2beb5;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px 20px 0px 20px;
+}
+
+.left [type="text"]{
+    outline: none;
+    padding: 10px 30px 10px 20px;
+    border: none;
+    background-color:rgb(255, 255, 255);
+}
+.right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+}
+.right [type="submit"]{
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.right [type="submit"]:hover{
+    color: white;
+    background-color: black;
+}
+
+.middle textarea{
+    height: 30vh;
+    width: 90vh;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    outline: none;
+    border: none;
+}
+
+.Footer{
+    margin:0;
+    background-color: #b2beb5;
+    height: 29vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fimg{
+    padding-top:15px;
+    padding-left:35px;
+    height:10vh;
+}
+
+.foot1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 23vh;
+}
+
+.f2{
+    height: 14vh;
+}
+
+.f2 p{
+    color:#010b2d;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.f2 a{
+    font-weight:bold;
+    color:#010b2d;
+    text-decoration: none;
+}
+
+.f2 a:hover{
+    color:rgb(6, 215, 31);
+}
+
+.f2 ul{
+    color:#010b2d;
+    list-style: none;
+}
+
+.f3{
+    margin-right:15px;
+    padding-right:40px;
+}
+
+.f3 p{
+    color:#010b2d;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.foot2{
+    padding-left: 20px;
+    height: 29vh;
+    margin-bottom: 0px;
+    background-color: #010b2d;
+    display:flex;
+    align-items: center;
+}
+
+.foot2 p{
+    color: rgb(255, 255, 255);
+}

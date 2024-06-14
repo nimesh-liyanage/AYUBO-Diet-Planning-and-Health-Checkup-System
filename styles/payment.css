@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.Details{
+    display:flex;
+    flex-direction: column;
+    border-style: groove;
+    border-radius:25px;
+    width:75%;
+    justify-content: space-between;
+    margin:auto;
+    margin-top: 3em;
+    color:#333333;
+    border-width:1px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);  
+}
+
+.topic{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:30px;
+    margin-top:30px;
+    color:#333333;
+}
+
+.text1{
+    margin-left:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#333333;
+}
+
+.submit{
+    width:250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:380px;
+    margin-top:30px;
+    border-radius:5px;
+    border:none;
+    height:30px;
+    text-align: center;
+    background-color:#0864A5;
+    color:white;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+    margin-bottom:30px; 
+}
+
+.submit:hover{
+    background-color:navy;
+    transform:scale(1.1);
+}
+
+.payMethod{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:10px;
+}
+
+.pay{
+    border-radius:25px;
+    border-width:1px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+    margin:auto;
+    width:80%;
+    border-color: #0864A5;
+}
+
+.select1{
+    margin-top:20px;
+    margin-bottom:30px;
+    width:200px;
+    height:30px;
+    border-radius:25px;
+    border-style: groove;
+    border-width:1px;
+    margin-left:10px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+    text-align: center;
+}
+
+.select2{
+    margin-top:10px;
+    margin-bottom:30px;
+    width:200px;
+    height:30px;
+    border-radius:25px;
+    margin-left:10px;
+    border-style: groove;
+    border-width:1px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+    text-align: center;
+}

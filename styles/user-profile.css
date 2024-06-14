@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .navbar li a:hover {
+    background-color: #111;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 25%;
+    margin-right: 60%; /* Adjust the margin as needed */
+    margin-bottom: 5px ;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 62px; /* Adjust profile picture size as needed */
+    height: 62px;
+    margin-right: 0; /* Add some spacing between the picture and the name */
+  }
+  
+  .username {
+    color: black;
+    margin: 0; /* Remove any default margin */
+    font-size: 18px; /* Adjust username font size as needed */
+    font-weight: bold; /* Adjust username font weight as needed */
+  }
+.right{
+    text-align: right;
+}
+    .content{
+      display:flex;
+      justify-content: center;
+    }
+
+.text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#333333;
+    margin-top:30px;
+    width: 60vh;
+    margin-left:20vh;
+    border-radius: 25px;
+    border-style:groove;
+    box-shadow:2px 4px 8px rgba(10,10,10,0.2);
+    border-width: 2px;
+    padding:30px;
+    border-color: #0864A5;
+   
+}
+
+.text1{
+text-align: center;
+}
+
+.topic{
+  text-align: center;
+}
+
+input[class=text1]{
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-width:1px;
+    box-shadow:2px 4px 8px rgba(10,10,10,0.2);
+    text-align: center;
+}
+input:focus[class=text1]{
+    color:navy;
+    background-color: white;
+    width: 220px;
+}
+body{
+    background-color: white;
+}
+
+input[type='submit']{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  width:80px;
+  height:50px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+input[type='submit']:focus{
+  background-color: black;
+  border: 2px solid white;
+  color:white;
+}
+
+
+input[name='logout']{
+  background-color:#0864A5;
+  border:none;
+  color: #333333;
+  width:100px;
+  height:50px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left:80px;
+}
+input[name='logout']:focus{
+  background-color: black;
+  border: 2px solid white;
+  color:white;
+}
+  
+
+
+

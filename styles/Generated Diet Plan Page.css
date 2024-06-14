@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#a,#b {
+  color: white;
+  background-color: #0870cf;
+  padding: 5px 20px;
+}
+
+#h3c {
+  border-style: solid;
+  color: black;
+  border-width: 1px 2px 5px 2px;
+  width: 20%;
+  margin-left: 15px;
+  border-color: #0870cf;
+  border-top-right-radius: 15px;
+  text-align: center;
+  border-radius: 0px 10px 0px 0px;
+}
+
+#imglogo {
+  width: 350px;
+  height: 75px;
+}
+
+h2{
+  font-size: 25px;
+  border-style: solid;
+  color: black;
+  border-width: 1px 2px 5px 2px;
+  width: 35%;
+  margin-left: 15px;
+  border-color: #0870cf;
+  border-top-right-radius: 15px;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #d2d2d2;
+}
+
+#BMI{
+  width: 400px;
+  height: 400px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+th,td{
+  border: 1.5px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th{
+  background-color: #d2d2d2;
+}
+
+#th1{
+  background-color: #515151;
+  width: 125px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0870cf;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+.navbar li a:hover {
+  background-color: #8c8c8c;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #0870cf;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 125px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 10px;
+  color: white;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.quickLinks {
+  list-style-type: none;
+}
+
+.quickLinks li a {
+  text-decoration: none;
+  color: white;
+}

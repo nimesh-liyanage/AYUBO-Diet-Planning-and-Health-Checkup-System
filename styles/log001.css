@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('http://localhost/iwt/src/images/004.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    
+  }
+  
+h2{
+    font-size: 2em;
+    font-weight: 3000;
+    color:rgba(70, 69, 69, 0.884);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:50px;
+}
+
+a{
+    color:rgb(61, 49, 66);
+}
+
+.wrapper {
+position: relative;
+width: 380px;
+height: 530px;
+background: transparent;
+border: 3px solid #dbd8d8b7;
+border-radius: 20px;
+backdrop-filter: blur(20px);
+box-shadow: 0 0 30px #8c8c8da7;
+display:flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.form{
+
+width:100%;
+padding:40px;
+}
+
+.input{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #8c8c8da7;
+    margin-top: -20px ;
+    
+}
+
+.form_details{
+    color:rgba(70, 69, 69, 0.884);
+    margin-top: 60px ; 
+    font-size: 20px;
+}
+
+.form_details_1{
+    color:rgba(70, 69, 69, 0.884);
+    margin-top: 10px ; 
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+input[type = "text"]{
+    padding: 30px;
+    margin-left:-10px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+input[type = "password"]{
+    padding-top: 30px;
+    margin-left:20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+input[type = "submit"]{
+    width:100%;
+    height:55px;
+    background-color: rgb(80, 153, 232);
+    border: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+input[type = "submit"]:hover{
+    background-color:#0d45ea;
+}
+
+img{
+    height: 6vh;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

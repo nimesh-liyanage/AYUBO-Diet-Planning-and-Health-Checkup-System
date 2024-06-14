@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.topic1{
+   border-style:solid;
+   color:#333333;
+   border-color: #008CBA;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align:center;
+   border-width:1px 1px 5px 1px;
+   box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+   width:15%;
+   height:30px;
+   margin-left:100px;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-top-right-radius:10px ;
+}
+
+.img1{
+    border-radius:25px;
+    margin-left:80px;
+    height:250px;
+    width:250px;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+}
+
+.img1:hover{
+    transform:scale(1.1);
+}
+
+.img-container {
+   float:left;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+.img-container1{
+    margin-bottom:20px;
+
+}
+  .name {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left:80px;
+    color:#333333;
+  }
+
+.name:hover{
+    color: #008CBA;
+}
+
+.price{
+    color:#333333;
+    margin-left:190px;
+  }
+.btn{
+    width:70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:175px;
+    border-radius:5px;
+    border:none;
+    height:30px;
+    text-align: center;
+    background-color:#0864A5;
+    color:white;
+    box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);  
+}
+.btn:hover{
+    background-color:navy;
+}
+
+.packages{
+border-style: groove;
+border-width:1px;
+border-color:lightgray;
+box-shadow: 2px 4px 8px rgba(10, 10, 10, 0.2);
+width:90%;
+margin-left:100px;
+align-items: center;
+border-radius:25px;
+}
+
+.pacLink{
+    text-decoration:none;
+    color: aliceblue;
+}
+
+.Link{
+  text-decoration:none;
+  color: aliceblue;
+}
